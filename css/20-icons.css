@@ -1,0 +1,31 @@
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    margin: 20px;
+}
+
+.fa-brands.fa-youtube.fa-5x{
+    color: red;
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: rgba(255, 0, 0, 0.77);
+
+}
+
+
+.fa-brands.fa-twitter.fa-5x{
+    color: blue;
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+    color: rgba(0, 0, 255, 0.732);
+}
+
+
+.fa-brands.fa-tiktok.fa-5x{
+    color: black;
+}
+.fa-brands.fa-tiktok.fa-5x:hover{
+    color: rgba(0, 0, 0, 0.789);
+}

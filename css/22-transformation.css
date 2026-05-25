@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+
+    /*
+        transform: translateX(50px);  Moves the element 50px to the right.(-50px move to the left)
+        transform: translateY(50px);  Moves the element 50px down. (-50px move up)
+        transform: translate(50px, 50px); Moves the element 50px right and 50px down
+
+        transform: rotateX(180deg); Rotates the element around the X-axis
+        transform: rotateY(180deg); Rotates the element around the Y-axis
+        transform: rotateZ(180deg); Rotates the element around the Z-axis
+
+        transform: scaleX(2); Stretches the element horizontally to double its width
+        transform: scaleY(2); Stretches the element vertically to double its height.
+        transform: scale(2, 0.5); Scales the element 2× wider and 0.5× shorter
+
+        transform: skewX(45deg); Slants the element horizontally by 45°.
+        transform: skewY(45deg); Slants the element vertically by 45°.
+        transform: skew(20deg, 20deg); Slants the element both horizontally and vertically by 20°
+    */
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgb(255, 119, 0);
+}
+#box3{
+    background-color: rgb(68, 255, 0);
+}

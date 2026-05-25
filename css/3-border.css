@@ -1,0 +1,22 @@
+h1{
+    border-style: solid; 
+    /*there's : 
+    dashed , dotted, double, groove, ridge, inset, outset, none*/
+    border-width: 5px;
+    border-color:aqua;
+    border-radius:20px; /*to make it rounded*/
+
+}
+/*the 3 first (style , width ,color) can be in one */
+#p1{
+    border: 3px solid red
+}
+#p2{
+    border-bottom: 3px dotted black; /*only show the bottom line of the border*/
+    border-top: 3px double black;
+    border-left: 3px groove black;
+    border-right: 3px dashed black;
+
+    border-radius: 10px;
+}
+

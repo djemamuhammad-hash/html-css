@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap; /*used along align-content (not necesarry)*/
+    align-content: flex-start; /* flex-start / center / space-evenly / space-between*/
+    column-gap: 1em; /* adds a gap between column's */
+    row-gap: 1em; /* adds a gap between rows */
+    
+    /* flex- direction peoperty :
+        flex-direction: row; the default flex direction 
+        flex-direction: row-reverse; reverse the order
+        flex-direction: column; set it to column arangement
+        flex-direction: column-reverse; reverse the order
+    */
+
+    /* justify-content property: sets the allignment on the main axis (x axis) (left / right)
+        justify-content: flex-start; the default
+        justify-content: flex-end;  will justify the content on the end
+        justify-content: center; center allign
+        justify-content: space-between;   center align + spread the extra space evenly between them
+        justify-content: space-around;  // same + the area outside the element is also included
+        justify-content: space-evenly; 
+    */
+
+    /* align-items property : sets the allignment on the cross axis (up / down)
+        align-items: flex-start; the default
+        align-items: flex-end;  will justify the content on the end
+        align-items: center; center allign
+        align-items: baseline;  the text is going to be aligned
+    */
+
+    /* flex-wrap property:  controls whether flex items stay on a single line 
+                        or wrap onto multiple lines when they overflow the container.
+        flex-wrap: nowrap; the default
+        flex-wrap: wrap;  now the elements will wrap if there's no space 
+        flex-wrap: wrap-reverse; elements will be in reverse order
+    */
+}
+.box{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 8em;
+    border-radius: 10px;
+}
+
+#box1{
+    background-color: rgb(255, 247, 0);
+
+    /* align-self property : applied to single element's
+        align-self: start; (center / end)
+    */
+    /* order: 1; will place it at the end
+        order: -1; will place it at the end
+    */
+}
+#box2{
+    background-color: rgb(4, 255, 0);
+}
+#box3{
+    background-color: rgb(0, 123, 255);
+}
+#box4{
+    background-color: rgb(255, 0, 0);
+}
+

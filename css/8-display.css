@@ -1,0 +1,21 @@
+div{  /*a div i a block element we can change the height and width*/
+    background-color:aqua;
+    height:100px;
+    width:100px;
+    display:inline;
+}
+#span1{  /*a div i an inline element we can not change the height and width*/
+    background-color:blue;
+    height:100px;
+    width:100px;
+    display:block;
+}
+/*we changed the 'div' to be displayed as an inline in this case we cant change width
+we changed the 'span' to be displayed as an block in this case we cant change width*/
+
+#span2{
+    background-color:brown;
+    height:100px;
+    width:100px;
+    display:inline-block;  /*just like inline but we can apply a width and a height*/
+}

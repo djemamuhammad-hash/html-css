@@ -1,0 +1,16 @@
+h1{
+    text-shadow: 3px 3px 5px red;
+    /*the first one is for the horizontal (left right)
+    second one is for the vertical <up down>
+    3rd one for the blur*/
+
+    /*u can add more shadows each one is seperated by a ,*/
+    /*text-shadow: 3px 3px 5px red, -3px -3px 5px red;*/
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color:aquamarine;
+    box-shadow: 3px 3px 5px;
+}

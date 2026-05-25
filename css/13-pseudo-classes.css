@@ -1,0 +1,43 @@
+button:hover{
+    font-size: 1.1em;
+    background-color: aqua;
+}
+/* when u hover to the button the font size and backgroun-color change*/
+
+button:active{
+    font-size: 1.1em;
+    background-color: rgb(255, 0, 0);
+}
+/*active when an item is selected*/ 
+
+a:link{
+    color: lightblue;
+}
+a:hover{
+    color:red;
+    font-size: 1.1em;
+}
+a:active{
+    font-size: 1.1em;
+    color:chartreuse;
+}
+a:visited{
+    color: grey;
+}
+
+
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){ /*anything that's not hovered*/
+    background-color:darkorange;
+}
+
+#greeting p{
+    background-color:gold;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
